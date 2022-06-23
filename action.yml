@@ -1,0 +1,13 @@
+name: 'Minteo'
+author: 'Oliver Hernandez'
+description: 'Custom GH action with typescript'
+
+inputs:
+  name:
+    description: 'Name to greet'
+    required: true
+    default: 'Oliver'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
